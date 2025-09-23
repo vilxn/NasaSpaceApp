@@ -1,12 +1,15 @@
-import Header from "./header/Header.tsx";
+import {BrowserRouter, Route, Routes} from "react-router"
+import WelcomePage from "./header/WelcomePage.tsx";
 import Foreground from "./foreground/Foreground.tsx";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Foreground/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<WelcomePage/>} />
+        <Route path="/main" element={<Foreground/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.container {
+    width: 100vw;
+    height: 20vh;
+    background: #E95C4B;
+    color: #10367D;
+}
+
+.header{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: 500;
+}
